@@ -99,7 +99,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: 
+    family:
 
   # Font settings for posts
   # Fallback to `global` font settings.
@@ -112,13 +112,13 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    family: 
-    size: 
+    family:
+    size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: 
+    family:
     size:
 
 
@@ -138,6 +138,7 @@ social:
   GitHub: https://github.com/was48i
   LinkedIn: https://www.linkedin.com/in/was48i
 
+
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -145,7 +146,6 @@ social:
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
   enable: false
-
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
@@ -519,4 +519,3 @@ images: images
 
 # Theme version
 version: 5.1.0
-
