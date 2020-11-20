@@ -1,16 +1,16 @@
 # HexoFWK
-A snapshot for Hexo 3 using NexT 5 as its theme.
+A snapshot of Hexo 3 and use NexT 5 as the theme.
 
-The specific version information is **Hexo 3.9.0** and **NexT 5.1.0**. It is a stable version with some UI configurations.
+The specific version information is **Hexo 3.9.0** and **NexT 5.1.0**. It is a minimal version with several UI configurations.
 
 ## Install
-There are some dependencies, which need to be installed in advance.
+There are some dependencies that need to be installed in advance.
 
 ### Node.js
 We recommend installing a more compatible version: [10.20.0](https://nodejs.org/en/blog/release/v0.10.20/).
 
 Under hexo-site, install the required packages in package.json:
-```
+```json
 {
   "name": "hexo-site",
   "version": "0.0.0",
@@ -37,19 +37,19 @@ Under hexo-site, install the required packages in package.json:
 
 ### Hexo
 Once all the requirements are installed, you can install Hexo with npm:
-```
+```bash
 $ npm install hexo-cli -g
 ```
 
 ## Usage
 Generate static files and start a local server:
-```
+```bash
 $ hexo generate
 $ hexo server
 ```
 
 Clean the cache and deploy your website:
-```
+```bash
 $ hexo clean
 $ hexo deploy
 ```
