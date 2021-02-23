@@ -7,7 +7,7 @@ The specific version information is **Hexo 3.9.0** and **NexT 5.1.0**. It is a m
 There are some dependencies that need to be installed in advance.
 
 ### Node.js
-We recommend installing a more compatible version: [10.20.0](https://nodejs.org/en/blog/release/v0.10.20/).
+We recommend installing a more compatible version: [10.20.1](https://nodejs.org/en/blog/release/v10.20.1/).
 
 Under hexo-site, install the required packages in package.json:
 ```json
@@ -58,4 +58,4 @@ $ hexo deploy
 We love contributions! Before submitting a Pull Request, it's always good to start with a new issue first.
 
 ## License
-This library is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/was48i/HexoFWK/blob/master/LICENSE).
+This library is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/snlndod/HexoFWK/blob/main/LICENSE).
