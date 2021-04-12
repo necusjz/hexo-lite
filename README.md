@@ -1,4 +1,4 @@
-# HexoFWK
+# hexo-mini
 A snapshot of Hexo 3 and use NexT 5 as the theme.
 
 The specific version information is **Hexo 3.9.0** and **NexT 5.1.0**. It is a minimal version with several UI configurations.
@@ -58,4 +58,4 @@ $ hexo deploy
 We love contributions! Before submitting a Pull Request, it's always good to start with a new issue first.
 
 ## License
-This library is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/snlndod/HexoFWK/blob/main/LICENSE).
+This repository is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/snlndod/hexo-mini/blob/main/LICENSE).
