@@ -1,10 +1,10 @@
 # hexo-mini
-A snapshot of Hexo 3 and use NexT 5 as the theme.
+A minimal version of Hexo with several UI configurations.
 
-The specific version information is **Hexo 3.9.0** and **NexT 5.1.0**. It is a minimal version with several UI configurations.
+The specific version information is **Hexo 3.9.0** and **NexT 5.1.0**.
 
-## Install
-There are some dependencies that need to be installed in advance.
+## Installation
+There are several prerequisites that need to be installed in advance.
 
 ### Node.js
 We recommend installing a more compatible version: [10.20.1](https://nodejs.org/en/blog/release/v10.20.1/).
@@ -36,7 +36,7 @@ Under hexo-site, install the required packages in package.json:
 ```
 
 ### Hexo
-Once all the requirements are installed, you can install Hexo with npm:
+Once all the requirements are installed, we can install Hexo with npm:
 ```bash
 $ npm install hexo-cli -g
 ```
@@ -48,7 +48,7 @@ $ hexo generate
 $ hexo server
 ```
 
-Clean the cache and deploy your website:
+Clean the cache and deploy our website:
 ```bash
 $ hexo clean
 $ hexo deploy
