@@ -69,7 +69,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:snlndod/snlndod.github.io.git
+  repo: git@github.com:umarellyh/umarellyh.github.io.git
   branch: master
 
 search:
