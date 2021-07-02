@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: SDE PREPARES
+title: ETHAN'S BLOG
 subtitle:
 description:
-author: umarellyh
+author: necusjz
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://umarellyh.github.io
+url: https://necusjz.github.io
 root: /
 permalink: p/:title.html
 permalink_defaults:
@@ -69,7 +69,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:umarellyh/umarellyh.github.io.git
+  repo: git@github.com:necusjz/necusjz.github.io.git
   branch: master
 
 search:

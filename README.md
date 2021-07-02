@@ -1,5 +1,5 @@
-# hexo-mini
-A minimal version of Hexo with several UI configurations.
+# Hexo Lite
+Lite version of Hexo with several UI configurations.
 
 The specific version information is **Hexo 3.9.0** and **NexT 5.1.0**.
 
@@ -58,4 +58,4 @@ $ hexo deploy
 We love contributions! Before submitting a Pull Request, it's always good to start with a new issue first.
 
 ## License
-This repository is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/umarellyh/hexo-mini/blob/main/LICENSE).
+This repository is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/necusjz/hexo-lite/blob/main/LICENSE).

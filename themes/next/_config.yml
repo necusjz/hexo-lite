@@ -132,11 +132,10 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
 social:
-  GitHub: https://github.com/umarellyh
-  LinkedIn: https://www.linkedin.com/in/umarellyh
+  # LinkLabel: Link
+  # GitHub: https://github.com/necusjz
+  # LinkedIn: https://www.linkedin.com/in/necusjz
 
 
 # Social Links Icons
@@ -148,8 +147,9 @@ social_icons:
   enable: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  LinkedIn: linkedin
+  # GitHub: github
+  # LinkedIn: linkedin
+
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
