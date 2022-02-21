@@ -20,6 +20,7 @@ Under hexo-site, install the required packages in package.json:
   },
   "dependencies": {
     "hexo": "^3.9.0",
+    "hexo-abbrlink": "^2.2.1",
     "hexo-deployer-git": "^1.0.0",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-category": "^0.1.3",
