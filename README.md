@@ -59,4 +59,4 @@ $ hexo deploy
 We love contributions! Before submitting a Pull Request, it's always good to start with a new issue first.
 
 ## License
-This repository is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/necusjz/hexo-lite/blob/main/LICENSE).
+This repository is licensed under MIT. Full license text is available in [LICENSE](https://github.com/necusjz/hexo-lite/blob/main/LICENSE).
