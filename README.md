@@ -43,6 +43,11 @@ $ npm install hexo-cli -g
 ```
 
 ## Usage
+Create a new post:
+```bash
+$ hexo new <title>
+```
+
 Generate static files and start a local server:
 ```bash
 $ hexo generate
