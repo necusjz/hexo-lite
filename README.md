@@ -9,7 +9,7 @@ There are several prerequisites that need to be installed in advance.
 ### Node.js
 We recommend installing a more compatible version: [10.20.1](https://nodejs.org/en/blog/release/v10.20.1/).
 
-Under hexo-site, install the required packages in package.json:
+Under hexo-site, install the required packages in `package.json`:
 ```json
 {
   "name": "hexo-site",
