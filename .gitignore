@@ -103,7 +103,7 @@ dist
 # TernJS port file
 .tern-port
 
-# hexo-lite
+# General
 .deploy_git/
 public/
 source/_posts/
