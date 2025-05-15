@@ -7,13 +7,30 @@ The specific version information is **Hexo 3.9.0** and **NexT 5.1.0**.
 There are several prerequisites that need to be installed in advance.
 
 ### Node.js
-We recommend installing a more compatible version: [10.20.1](https://nodejs.org/en/blog/release/v10.20.1/).
+We recommend installing a more compatible version [10.24.1](https://nodejs.org/en/blog/release/v10.24.1):
+```bash
+# Download and install nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+
+# Download and install Node.js:
+nvm install 10
+
+# Verify the Node.js version:
+node -v # Should print "v10.24.1".
+nvm current # Should print "v10.24.1".
+
+# Verify npm version:
+npm -v # Should print "6.14.12".
+```
 
 Under hexo-site, install the required packages in `package.json`:
 ```json
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "hexo-lite",
+  "version": "1.0.0",
   "private": true,
   "hexo": {
     "version": "3.9.0"
@@ -21,6 +38,7 @@ Under hexo-site, install the required packages in `package.json`:
   "dependencies": {
     "hexo": "^3.9.0",
     "hexo-abbrlink": "^2.2.1",
+    "hexo-cli": "^1.0.4",
     "hexo-deployer-git": "^1.0.0",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-category": "^0.1.3",
@@ -34,12 +52,6 @@ Under hexo-site, install the required packages in `package.json`:
     "hexo-server": "^0.3.1"
   }
 }
-```
-
-### Hexo
-Once all the requirements are installed, we can install Hexo with npm:
-```bash
-$ npm install hexo-cli -g
 ```
 
 ## Usage
